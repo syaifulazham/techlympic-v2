@@ -11,7 +11,7 @@
   <Header />
 
   <div class="flex px-4 pb-6 mx-auto w-full">
-      <main class="lg:ml-72 lg:mr-72 w-full mx-auto">
+      <main class="lg:ml-72 lg:mr-72 w-full mx-auto py-16">
         <slot />
       </main>
   </div>

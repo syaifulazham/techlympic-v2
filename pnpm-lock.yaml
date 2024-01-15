@@ -52,6 +52,9 @@ devDependencies:
   svelte:
     specifier: ^3.54.0
     version: 3.59.2
+  svelte-heros-v2:
+    specifier: ^0.10.12
+    version: 0.10.12(svelte@3.59.2)
   tailwindcss:
     specifier: ^3.3.6
     version: 3.4.1
@@ -1520,6 +1523,14 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /svelte-heros-v2@0.10.12(svelte@3.59.2):
+    resolution: {integrity: sha512-0wspy0z9UFS9f/iPKQQ1JDHlNY6e7h+LVW+wJ0qJnuWDpvsJllmoCX2g0frYbMPDWZJEwh2pkO25Dp3lDGCxGQ==}
+    peerDependencies:
+      svelte: ^3.54.0 || ^4.0.0
+    dependencies:
+      svelte: 3.59.2
     dev: true
 
   /svelte-hmr@0.15.3(svelte@3.59.2):

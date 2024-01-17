@@ -10,8 +10,8 @@
 <div class="app">
   <Header />
 
-  <div class="flex px-4 pb-6 mx-auto w-full">
-      <main class="lg:ml-72 lg:mr-72 w-full mx-auto py-16">
+  <div class="flex px-4 pb-6 mx-auto w-full h-full">
+      <main class="lg:ml-72 lg:mr-72 w-full mx-auto py-16 h-full">
         <slot />
       </main>
   </div>

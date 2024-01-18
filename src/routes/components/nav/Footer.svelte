@@ -1,7 +1,7 @@
 <script>
     import { BottomNav, BottomNavItem, Skeleton, ImagePlaceholder } from 'flowbite-svelte';
     import { HomeSolid, WalletSolid, AdjustmentsVerticalOutline, UserCircleSolid, AddressCardSolid, ChartPieSolid, UserAddOutline } from 'flowbite-svelte-icons';
-  </script>
+</script>
   
   <BottomNav position="absolute" navType="border" classInner="grid-cols-5">
     <BottomNavItem btnName="Profil">
